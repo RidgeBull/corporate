@@ -72,7 +72,6 @@
 @media screen and (max-width:767px) {
     .professional__img {
         width: 100%;
-        height: 67.7333333333vw
     }
 }
 
@@ -83,7 +82,6 @@
 @media screen and (max-width:767px) {
     .professional__img img {
         width: 89.3333333333vw;
-        height: 67.7333333333vw
     }
 }
 
@@ -286,7 +284,6 @@
 @media screen and (max-width:767px) {
     .professional--reverse .professional__img {
         width: 100%;
-        height: 67.7333333333vw;
         margin-right: 0
     }
 }
@@ -298,7 +295,6 @@
 @media screen and (max-width:767px) {
     .professional--reverse .professional__img img {
         width: 89.3333333333vw;
-        height: 67.7333333333vw
     }
 }
 
@@ -309,7 +305,6 @@
 @media screen and (max-width:767px) {
     .professional--reverse .professional__img--big img {
         width: 89.3333333333vw;
-        height: 67.7333333333vw
     }
 }
 
