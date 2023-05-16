@@ -43,7 +43,6 @@
   <!--BODY START-->
   <div class="l-page top">
     <h1 class="l-page__heading">All Polymer Battery</h1>
-    <!--
     <script src="./assets/header.js"></script>
     <header class="l-header js-header">
       <div class="l-header__inner l-inner">
@@ -53,28 +52,56 @@
         <p class="l-header__hamburger js-hamburger"> <span></span> <span></span> </p>
         <div class="l-header__nav js-menu">
           <ul class="l-menu">
-            <li class="l-menu__item"> <a class="l-menu__link" href="index.html"> <span class="l-menu__txt">Home</span>
-                <span class="l-menu__en">Home</span> <span class="l-menu__jp">ホーム</span> </a> </li>
-            <li class="l-menu__item"> <a class="l-menu__link" href="#team"> <span class="l-menu__txt">Our
-                  Team</span> <span class="l-menu__en">Our Team</span> <span class="l-menu__jp">SAPYのチーム</span> </a>
+            <li class="l-menu__item">
+              <a class="l-menu__link" href="#home">
+                <span class="l-menu__txt">Home</span>
+                <span class="l-menu__en">Home</span>
+                <span class="l-menu__jp">ホーム</span>
+              </a>
             </li>
-            <li class="l-menu__item"> <a class="l-menu__link js-anker" href="#about"> <span class="l-menu__txt">About
-                  Us</span> <span class="l-menu__en">About Us</span> <span class="l-menu__jp">会社概要</span> </a> </li>
-            <li class="l-menu__item"> <a class="l-menu__link js-anker" href="https://sapy.co.jp/career/"> <span
-                  class="l-menu__txt">Careers</span> <span class="l-menu__en">Careers</span> <span
-                  class="l-menu__jp">採用情報</span> </a> </li>
+            <li class="l-menu__item">
+              <a class="l-menu__link" href="#domain">
+                <span class="l-menu__txt">Service</span>
+                <span class="l-menu__en">Service</span>
+                <span class="l-menu__jp">サービス</span>
+              </a>
+            </li>
+            <li class="l-menu__item">
+              <a class="l-menu__link" href="#team">
+                <span class="l-menu__txt">Our Team</span>
+                <span class="l-menu__en">Our Team</span>
+                <span class="l-menu__jp">SAPYのチーム</span>
+              </a>
+            </li>
+            <li class="l-menu__item">
+              <a class="l-menu__link js-anker" href="#about">
+                <span class="l-menu__txt">About Us</span>
+                <span class="l-menu__en">About Us</span>
+                <span class="l-menu__jp">会社概要</span>
+              </a>
+            </li>
+            <!--
+            <li class="l-menu__item">
+              <a class="l-menu__link js-anker" href="https://sapy.co.jp/career/">
+                <span class="l-menu__txt">Careers</span>
+                <span class="l-menu__en">Careers</span>
+                <span class="l-menu__jp">採用情報</span>
+              </a>
+            </li>
+            -->
           </ul>
+          <!--
           <div class="l-header__contact">
             <div class="contact">
               <a href="https://sapy.co.jp/contact/" class="contact__link"><span>Contact</span></a>
             </div>
           </div>
+          -->
         </div>
       </div>
     </header>
-    -->
     <main class="l-main">
-      <div class="top-mv">
+      <div class="top-mv" id="home">
         <div class="top-mv__inner l-inner">
           <div class="top-mv__content u-fade js-animate is-animate">
             <h2 class="top-mv__slogan">
@@ -86,7 +113,7 @@
         </div>
       </div>
       <!-- /.l-container -->
-      <div class="l-container block-product">
+      <div class="l-container block-product" id="domain">
         <div class="l-inner">
           <h2 class="c-ttl-01 block-product__title u-color-white u-fade js-animate is-animate">
             <span class="c-ttl-01__en">SAPY, Inc</span>
@@ -133,7 +160,7 @@
           </div>
         </div>
       </div>
-      <div class="l-container block-team">
+      <div class="l-container block-team" id="team">
         <div class="l-inner">
           <h2 class="c-ttl-01 c-ttl-01--black block-team__title u-fade js-animate is-animate">
             <span class="c-ttl-01__en">Our Team</span>
@@ -223,7 +250,7 @@
         </div>
       </div>
       <!-- /.l-container -->
-      <div class="l-container block-about" id="about-us">
+      <div class="l-container block-about" id="about">
         <div class="l-inner">
           <h2 class="c-ttl-01 c-ttl-01--black block-about__title u-fade js-animate is-animate">
             <span class="c-ttl-01__en">About Us</span>
